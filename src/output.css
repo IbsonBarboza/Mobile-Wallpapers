@@ -1030,6 +1030,10 @@ video {
     margin-left: 4rem;
     margin-right: 4rem;
   }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1024px){
@@ -1058,5 +1062,43 @@ video {
   .xl\:mx-48{
     margin-left: 12rem;
     margin-right: 12rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:grid{
+    display: grid;
+  }
+
+  .\32xl\:size-96{
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .\32xl\:w-20{
+    width: 5rem;
+  }
+
+  .\32xl\:w-16{
+    width: 4rem;
+  }
+
+  .\32xl\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .\32xl\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\32xl\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
