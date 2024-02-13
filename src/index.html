@@ -4,57 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="output.css">
 
     <title>Wallpaper</title>
 </head>
-<body>
+<body class="h-full bg-gradient-to-br from-gray-50 to-gray-300 ">
     
-    <header class="px-5 fixed bg-white shadow-md w-full">
+    <header class="px-5 fixed bg-white/50 drop-shadow-lg w-full z-50">
         <div class="font-ProtestFont text-2xl py-2">
             <a href="#">Wallpapers</a>
         </div>
     </header>
 
-    <main class="font-PoppinsFont mx-5 md:mx-16 xl:mx-48 pt-20 pb-20 ">
+    <main class="font-PoppinsFont mx-5 md:mx-16 xl:mx-48 pt-20 mb-10">
         <h1 class="text-3xl font-medium mb-5">Mobile Wallpapers</h1>
 
-        <section class="grid grid-cols-2 lg:grid-cols-3 gap-5">
-            <a href="#">
-                <figure>
-                    <img src="../images/cursed-tree.jpg" alt="">
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/cursed-tree.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
                 </figure>
-            </a>
 
-            <a href="#">
-                <figure>
-                    <img src="../images/green-ground.jpg" alt="">
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/green-ground.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
                 </figure>
-            </a>
+            
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/causeway.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
+                </figure>
 
-            <a href="#">
-                <figure>
-                    <img src="../images/causeway.jpg" alt="">
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/close-to-the-river.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
                 </figure>
-            </a>
 
-            <a href="#">
-                <figure>
-                    <img src="../images/close-to-the-river.jpg" alt="">
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/skate-trunk.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
                 </figure>
-            </a>
 
-            <a href="#">
-                <figure>
-                    <img src="../images/skate-trunk.jpg" alt="">
+                <figure class="relative overflow-hidden">
+                    <img class="rounded-2xl" src="../images/little-path-light.jpg" alt="">
+                    <figcaption class="absolute bg-transparent w-full h-full bottom-0 left-0 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-in">
+                            <div class="absolute bottom-5 left-0 px-5 bg-transparent w-full flex justify-between items-center">
+                                <div class="flex items-center gap-2">
+                                    <img class="rounded-full w-10" src="../images/Ibson.jpg" alt="">
+                                    <h2 class="text-white text-sm italic font-medium text-shadow-lg pointer-events-none" >Taken by <span class="font-extrabold">Ibson</span></h2>
+                                </div>
+                                    <button class="bg-transparent hover:bg-green-400 transition-all duration-300 h-10 w-10 rounded-lg">
+                                        <i class='bx bxs-download text-lg text-white' ></i>
+                                    </button>
+                            </div>
+                    </figcaption>
                 </figure>
-            </a>
-
-            <a href="#">
-                <figure>
-                    <img src="../images/little-path-light.jpg" alt="">
-                </figure>
-            </a>
+            
         </section>
     </main>
 </body>
